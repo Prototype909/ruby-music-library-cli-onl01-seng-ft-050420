@@ -5,7 +5,7 @@ class Song
   @@all = [] #each class shoudl contain a class variable @@all tha tis set to an empty array
 
   def initialize(name, artist=nil, genre=nil)
-    @name = name # accept a name upon initialization 
+    @name = name # accept a name upon initialization
     self.artist=(artist) if artist != nil
     self.genre=(genre) if genre != nil
   end
